@@ -1,0 +1,28 @@
+/*The wildcard selector applies the below properties to all elements*/
+* {
+    box-sizing: border-box; /*If I set an element's width to 100 pixels, 
+                            that 100 pixels will include any border or padding you added, 
+                            and the content box will shrink to absorb that extra width.*/
+}
+
+body {
+    margin: 0; /*Margins create extra space around an element*/
+    background: #fff; /*It sets all background style properties at once, such as colour, image, origin and size, or repeat method*/
+    border-top: 5px solid #e5e5e5; /*It sets all the properties of an element's top border*/
+    color: #272727; /*It sets the color of an element's (body) text*/
+    overflow-x: hidden; /*It sets what shows when content overflows a block-level element's left and right edges.*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:focus {
+    outline: none;
+}
+
+.layout-wrapper {
+    width: 97.5%; /*It sets the width of each page to 97.5%. On smaller screens, this will ensure there's enough padding on the sides.*/
+    height: 100%;
+    max-width: 850px; /*It sets the max-width to 850 pixels. This will control how the layout appears on screens with very wide widths.*/
+    margin: auto; /*It sets the thickness of the margin area to auto*/
+    padding-left: 30px; /*It sets the space between the content box and the border of an element on the left to 30 pixels.*/
+    padding-right: 30px; /*It sets the space between the content box and the border of an element on the right to 30 pixels.*/
+}

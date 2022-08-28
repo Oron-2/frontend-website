@@ -1,0 +1,55 @@
+/*
+The footer is given a lightly coloured top border.
+*/
+.footer-wrapper {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 0 solid transparent;
+    box-sizing: content-box;
+    overflow: visible;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*
+The links are given the same styling.
+*/
+.footer-links a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color: grey;
+    padding-bottom: 2px;
+}
+
+.footer-links a:first-child {
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.footer-links a:hover {
+    border-bottom: 2px solid #2161f2;
+    color: #272727;
+}
+
+.footer-bottom-msg {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+/*
+On smaller devices (under 900px in width), I switch the three <a></a> link elements from having their default display: inline; style to display: block;
+This means they will stack on top of each other instead of being side-by-side and
+will ensure that everything fits on the screen when users are using a smaller device.
+*/
+@media only screen and (max-width: 900px) and (min-width: 0px) {
+    .footer-links a {
+        display: block;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .footer-bottom-msg {
+        font-size: 14px;
+    }
+}

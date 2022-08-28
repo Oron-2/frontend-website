@@ -1,0 +1,103 @@
+.header.wrapper {
+    width: 100%;
+}
+
+.header-container {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    user-select: none;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: inherit;
+    color: #333;
+}
+
+.header-logo a:hover {
+    color: #000;
+}
+
+.header-logo-icon {
+    font-size: 24px;
+}
+
+.header-logo-text {
+    font-size: 20px;
+    margin-left: 7.5px;
+    font-weight: bold;
+    padding-top: 2.5px;
+}
+
+/*
+I floated the links section to the right side of the header 
+and gave them some color and text-decoration styling as well. 
+*/
+.header-links {
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: 0;
+    background-color: transparent;
+    padding-bottom: 2px;
+}
+
+.header-links a:last-child {
+    margin-right: 0px;
+}
+
+.header-links a:hover {
+    border-bottom: 2px solid #2161f2;
+    color: #272727;
+}
+
+/*
+Setting the height and width of the logo section and scaling those sizes down
+on smaller screen widths using a @media query.
+*/
+/*
+In the @media query, I changed the styling so that the logo and links sections will stack
+on top of each other on any device with a width under 900px.
+This will make things more responsive on mobile devices by ensuring everything fits on the visitor's screens with correct spacing.
+*/
+@media only screen and (max-width: 900px) and (min-width: 0px) {
+    .header-container {
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header-logo {
+        display: block;
+    }
+
+    .header-logo-icon {
+        font-size: 22px;
+    }
+
+    .header-logo-text {
+        font-size: 18px;
+        margin-left: 7.5px;
+        font-weight: bold;
+        padding-top: 2.5px;
+    }
+
+    .header-links {
+        text-align: center;
+        float: none;
+        font-size: 16px;
+    }
+}
