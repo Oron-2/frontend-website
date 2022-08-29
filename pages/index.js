@@ -37,7 +37,7 @@ export default class extends Component {
             <div className="layout-wrapper">
                 <HeadMetadata
                     title="Coding Blog"
-                    metaDescription="Petar Panjarov is a computing technologies graduate, sharing things he knows and finds exciting. Mostly related to technology."
+                    metaDescription="Petar Pandzharov is a computing technologies graduate, sharing things he knows and finds exciting. Mostly related to technology."
                 />
                 <Header />
                 <div className="homepage-container">
