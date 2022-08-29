@@ -36,6 +36,7 @@ export default class extends Component {
                 <title>{this.props.title}</title>
                 <meta name="description" content={this.props.metaDescription} />
                 <meta name="google-site-verification" content={process.env.GOOGLE_VERIFICATION_ID} />
+                <meta name="msvalidate.01" content={process.env.BING_VERIFICATION_ID} />
             </Head>
         )
     }
