@@ -8,6 +8,7 @@
 module.exports = {
     env: {
         "DEV_API_URL": "http://localhost:5000",
-        "PRODUCTION_API_URL": "https://www.api.petarpandzharov.com"
+        "PRODUCTION_API_URL": "https://www.api.petarpandzharov.com",
+        "GOOGLE_VERIFICATION_ID": "l2i7_2Z7FB8bIE2asRarPBYZVUmkvlncxEb-ePXXgkw"
     }
 }
