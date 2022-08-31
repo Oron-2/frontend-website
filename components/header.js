@@ -7,7 +7,7 @@ export default class extends Component {
                 <div className="header-container">
                     <div className="header-logo">
                         <a href="/">
-                            <span className="header-logo-icon"><img src="/favicon-32x32.png"/></span>
+                            <img className="header-logo-icon" src="/global-network.png"/>
                             <span className="header-logo-text">Petar Alekseev Pandzharov</span>
                         </a>
                     </div>
