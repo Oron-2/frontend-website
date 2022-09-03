@@ -4,9 +4,11 @@ import moment from "moment"
 import Header from "../../../components/header.js"
 import Footer from "../../../components/footer.js"
 import HeadMetadata from "../../../components/headMetadata.js"
+import GoogleAnalytics from "../../../components/googleAnalytics.js"
 
 // Importing the below function to pull the data into the page
 import getBlogPostsByTag from "../../../api/getBlogPostsByTag.js"
+
 
 export default class extends Component {
     // Next.js will run the getInitialProps() function before loading the content of the page,
@@ -33,6 +35,7 @@ export default class extends Component {
                     title={`Blog posts tagged as "${this.props.tag}" | Coding Blog`}
                     metaDescription={`All blog posts tagged as "${this.props.tag}".`}
                 />
+                <GoogleAnalytics />
                 <Header />
                 <div className="blog-posts-container">
                     <h1>Blog posts tagged as <u>{this.props.tag}</u></h1>

@@ -5,6 +5,7 @@ import { Component } from "react"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 import HeadMetadata from "../components/headMetadata.js"
+import GoogleAnalytics from "../components/googleAnalytics.js"
 
 // Importing the below function to pull the data into the page
 import getFiveNewestPosts from "../api/getFiveNewestPosts.js"
@@ -39,6 +40,7 @@ export default class extends Component {
                     title="Coding Blog"
                     metaDescription="Petar Pandzharov is a computing technologies graduate, sharing things he knows and finds exciting. Mostly related to technology."
                 />
+                <GoogleAnalytics />
                 <Header />
                 <div className="homepage-container">
                     <div className="homepage-introduction">
