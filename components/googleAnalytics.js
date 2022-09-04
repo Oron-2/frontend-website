@@ -18,7 +18,7 @@ export default class extends Component {
         return (
             <>
                 {
-                    process.env.NODE_ENV === "production" && process.browser ?
+                    process.env.NODE_ENV === "production" && typeof window ?
                         <Head>
                             <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}></script>
                             <script
