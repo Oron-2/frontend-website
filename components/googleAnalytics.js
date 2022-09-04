@@ -25,10 +25,10 @@ export default class extends Component {
                                 async
                                 dangerouslySetInnerHTML={{
                                     __html: `window.dataLayer = window.dataLayer || [];
-                                function gtag(){dataLayer.push(arguments);}
-                                gtag("js", new Date());
+                                    function gtag(){dataLayer.push(arguments);}
+                                    gtag("js", new Date());
 
-                                gtag("config", "${process.env.GOOGLE_ANALYTICS_ID}");`
+                                    gtag("config", "${process.env.GOOGLE_ANALYTICS_ID}");`
                                 }}
                             />
                         </Head> : null
