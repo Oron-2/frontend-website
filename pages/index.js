@@ -44,7 +44,7 @@ export default class extends Component {
                 <Header />
                 <div className="homepage-container">
                     <div className="homepage-introduction">
-                        <h1>Hi, I'm Petаr. I'm a recent computing technologies graduate.</h1>
+                        <h1>Hi, I'm Petar. I'm a recent computing technologies graduate.</h1>
                         <p>I write about things that have made an impression on me, mostly related to technology.</p>
                     </div>
 

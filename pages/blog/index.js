@@ -4,9 +4,11 @@ import moment from "moment"
 import Header from "../../components/header.js"
 import Footer from "../../components/footer.js"
 import HeadMetadata from "../../components/headMetadata.js"
+import GoogleAnalytics from "../../components/googleAnalytics.js"
 
 // Importing the getAllBlogPosts.js function to use it and pull real data into the page.
 import getAllBlogPosts from "../../api/getAllBlogPosts.js"
+
 
 export default class extends Component {
     // The keyword await is used when the getAllBlogPosts() is called because it's an async function.
@@ -28,6 +30,7 @@ export default class extends Component {
                     title="Blog Posts | Coding Blog"
                     metaDescription="List of all blog posts published on the Petar Pandzharov coding blog."
                 />
+                <GoogleAnalytics />
                 <Header />
                 <div className="blog-posts-container">
                     <h1>Blog Posts</h1>
