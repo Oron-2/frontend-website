@@ -11,6 +11,6 @@ module.exports = {
         "PRODUCTION_API_URL": "https://www.api.petarpandzharov.com",
         "GOOGLE_VERIFICATION_ID": "l2i7_2Z7FB8bIE2asRarPBYZVUmkvlncxEb-ePXXgkw",
         "BING_VERIFICATION_ID": "485E4BC2B62CE0496E7E8A99321624AA",
-        "GOOGLE_ANALYTICS_ID" : "G-56RG7N62PQ"
+        "GOOGLE_ANALYTICS_ID" : "G-BSN8TCLL0E"
     }
 }
