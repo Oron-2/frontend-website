@@ -5,7 +5,7 @@ import Head from "next/head"
 // environment variable is equal to "production". I only want Google Analytics to track
 // data when the application is running in production mode. If the code is running in production mode,
 // I place the code for the component inside the <Head> element. This will add the code to the head of the page.
-// I also instruct the component to only render if the process.browser value is true. This ensures
+// I also instruct the component to only render if the typeof window value is true. This ensures
 // that the code only runs in the browser environment (as opposed to the code Next.js runs on the client-side).
 // By doing this, I stop the script from being called more than once on each page load.
 // Then, the <script> tag is used to initiate the Google Tag Manager script. This makes the Google Tag Manager script
