@@ -30,12 +30,22 @@ export default class extends Component {
                         </ul>
                     </div>
                     <div className="about-section">
-                        <h2>Currently Using</h2>
+                        <h2>Hardware Currently in Use</h2>
                         <ul>
                             <li><strong>Computer</strong>: MacBook Pro (Retina, 13-inch, Early 2015)</li>
+                            <li><strong>Keyboard</strong>: Keychron K8 Wireless Mechanical Keyboard - RGB Backlight / Gateron (Hot-swappable) / Red</li>
+                            <li><strong>Mouse</strong>: Logitech MX Master 2S</li>
+                            <li><strong>Monitor</strong>: Huawei MateView 28.2 inch Monitor, 4K UHD(3840x2560), 3:2 Aspect Ratio </li>
+                        </ul>
+                    </div>
+                    <div className="about-section">
+                    <h2>Some Technologies Used to Create the Blog</h2>
+                        <ul>
                             <li><strong>Web Hosting</strong>: <a href="https://www.digitalocean.com/">DigitalOcean</a></li>
                             <li><strong>Code Editor</strong>: <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-                            <li><strong>Coding Framework</strong>: <a href="https://nextjs.org/">Next.js</a></li>
+                            <li><strong>Frontend Coding Framework</strong>: <a href="https://nextjs.org/">Next.js</a></li>
+                            <li><strong>Backend Coding Framework</strong>: <a href="https://expressjs.com/">Express.js</a></li>
+                            <li><strong>Database and Object Document Mapper</strong> <a href="https://www.mongodb.com/">MongoDB</a> and <a href="https://mongoosejs.com/">Mongoose</a></li>
                             <li><strong>Syntax Highlighting</strong>: <a href="https://prismjs.com">PrismJS</a></li>
                         </ul>
                     </div>
